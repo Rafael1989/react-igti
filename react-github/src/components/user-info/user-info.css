@@ -1,0 +1,26 @@
+.avatar {
+  border-radius: 100px;
+  height: 200px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.full-name-link {
+  color: '#333';
+  font-weight: 'bold';
+  text-decoration: 'underline' !important;
+}
+
+.user-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.user-data {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
