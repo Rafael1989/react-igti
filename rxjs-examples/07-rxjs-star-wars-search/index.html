@@ -1,0 +1,42 @@
+<html lang="pt-Br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    >
+    <title>RXJS - Star Wars Search</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+  </head>
+
+  <body>
+    <h1>Star Wars Characters Search</h1>
+
+    <div class="search">
+      <input
+        type="search"
+        autofocus
+        id="inputSearch"
+        placeholder="Pesquise aqui..."
+        value
+      >
+    </div>
+    <button id="btCancelar">Cancelar</button>
+
+    <div class="results"></div>
+
+    <!-- Referência a rxjs - versão 6.x - através de CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.7/rxjs.umd.min.js"></script>
+
+    <script
+      type="module"
+      src="./js/script.js"
+    ></script>
+  </body>
+
+</html>

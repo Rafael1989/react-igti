@@ -1,0 +1,36 @@
+{
+  "name": "rxjs-examples",
+  "version": "1.0.0",
+  "description": "Exemplos diversos com rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rrgomide-rxjs/rxjs-examples.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "javascript",
+    "rxjs"
+  ],
+  "author": "Raphael Gomide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/rrgomide-rxjs/rxjs-examples/issues"
+  },
+  "homepage": "https://gitlab.com/rrgomide-rxjs/rxjs-examples#README",
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "live-server": "^1.2.0",
+    "prettier": "1.11.1"
+  },
+  "dependencies": {
+    "rxjs": "6.2.0"
+  }
+}

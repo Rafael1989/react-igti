@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Promise e async/await</title>
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h1>Exemplo com promises e async/await
+  </h1>
+
+  <label>
+    Informe um usuário do Github:
+    <input type="text" id="inputUserGithub" value="rrgomide">
+  </label>
+
+  <div>
+    <button id='btBuscaPadrao' class="waves-effect waves-light btn">
+      Tentativa de busca padrão
+    </button>
+
+    <button id='btPromise' class="waves-effect waves-light btn">
+      Busca com promise
+    </button>
+
+    <button id='btAsyncAwait' class="waves-effect waves-light btn">
+      Busca com async/await
+    </button>
+
+  </div>
+
+  <h2>Abra o console!</h2>
+
+  <script src='./js/script.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RXJS - Clicks</title>
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+  <div class="esquerda">
+    <h1>Metade esquerda da tela</h1>
+    <h2>Testes com cliques</h2>
+
+    <label>
+      <input type='radio' name='botoes' id="bt1" checked> (bt1) - Todos os cliques em toda a página (Vanilla JS)
+    </label>
+    <br>
+    <br>
+
+    <label>
+      <input type='radio' name='botoes' id="bt2"> (bt2) - 10 cliques somente no canto esquerdo (Vanilla JS)</label>
+    </label>
+    <br>
+    <br>
+
+    <div id='divObservable' style="border: 1px solid black; border-radius: 10px">
+      <label>
+        <input type='radio' name='botoes' id="bt3"> (bt3) 10 cliques somente no canto direito (Observable)
+      </label>
+
+      <br>
+      <br>
+
+      <label>&nbsp;&nbsp;
+        <input type="checkbox" id="cbHabilitarAtraso">Habilitar atraso de
+        <input type="number" id="inputAtraso" min="0" max="3000" size="1" value="500"> milissegundo(s) entre os cliques
+      </label>
+
+      <br>
+      <br> &nbsp;&nbsp;
+
+      <label>
+        <input type="radio" checked id='radioDebounce' name="tipoAtraso">debounceTime &nbsp;&nbsp;
+      </label>
+
+      <label>
+        <input type="radio" id='radioThrottle' name="tipoAtraso">throttleTime
+      </label>
+    </div>
+
+    <br>
+    <br>
+
+    <h2>Abra o console!</h2>
+  </div>
+
+  <div class="direita">
+    <h1>Metade direita da tela</h1>
+  </div>
+
+  <!-- Referência a rxjs - versão 6.x - através de CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.7/rxjs.umd.min.js"></script>
+
+  <!-- Script carregado como módulo (Chrome suporta nativamente) -->
+  <script type='module' src='./js/script.js'></script>
+</body>
+
+</html>

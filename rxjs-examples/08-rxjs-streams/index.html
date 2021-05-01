@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RXJS - Streams</title>
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+  <h2>
+    Streams
+    <span id='s1'></span>
+    <span id='s2'></span>
+    <span id='s3'></span>
+  </h2>
+
+  <p>
+    <strong>Stream 1 (números a cada 0,1 segundos): </strong>
+  </p>
+  <p id='stream1'></p>
+
+  <p>
+    <strong>Stream 2 (filtrando os números ímpares de Stream 1): </strong>
+  </p>
+  <p id='stream2'></p>
+
+  <p>
+    <strong>Stream 3 (multiplicando os números de Stream 2 por 7): </strong>
+  </p>
+  <p id='stream3'></p>
+
+  <!-- Referência a rxjs - versão 6.x - através de CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.7/rxjs.umd.min.js"></script>
+
+  <!-- Script carregado como módulo (Chrome suporta nativamente) -->
+  <script type='module' src='./js/script.js'></script>
+</body>
+
+</html>

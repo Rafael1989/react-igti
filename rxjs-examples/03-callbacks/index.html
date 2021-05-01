@@ -1,0 +1,70 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    >
+    <title>Callbacks</title>
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <h1>
+      Exemplo com
+      <em>callbacks</em>
+    </h1>
+
+    <p>
+      1a função retorna 1. Com o atraso, demora 1 segundo.
+    </p>
+    <p>
+      2a função retorna 2. Com o atraso, demora 2 segundos.
+    </p>
+    <p>
+      3a função retorna 3. Com o atraso, demora 3 segundos.
+    </p>
+
+    <label>
+      <input
+        type="checkbox"
+        checked
+        id="cbForceDelay"
+      >
+      <span>Habilitar atraso</span>
+    </label>
+    <br>
+    <br>
+
+    <div>
+      <button
+        id="btWithoutCallback"
+        class="waves-effect waves-light btn"
+      >
+        Sem callbacks
+      </button>
+
+      <button
+        id="btWithCallback"
+        class="waves-effect waves-light btn"
+      >
+        Com callbacks
+      </button>
+
+    </div>
+
+    <h2>Abra o console!</h2>
+
+    <script src="./js/script.js"></script>
+  </body>
+
+</html>

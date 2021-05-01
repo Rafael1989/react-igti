@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  color: black;
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.esquerda,
+.direita {
+  flex: 1;
+  padding: 10px 10px;
+  width: 50%;
+  background-color: #e74c3c;
+  border: 2px solid black;
+}
+
+.direita {
+  background-color: #e67e22;
+}
