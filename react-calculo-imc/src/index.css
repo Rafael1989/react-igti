@@ -1,0 +1,11 @@
+
+html {
+  height: 100%;
+  background-image: url(https://media.giphy.com/media/C4XAKMeIxZFQqM8ALj/giphy.gif);
+  background-repeat: no-repeat, repeat;
+  background-size: cover; 
+}
+
+body{
+    padding: 10px;
+}
